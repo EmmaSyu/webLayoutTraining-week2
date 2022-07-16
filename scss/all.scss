@@ -105,30 +105,31 @@ section {
     background-size: cover;
     background-position: center;
     color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 
     &-content {
-        width: 304px;
-        margin: 0 auto;
-        padding-top: 308px;
-        padding-bottom: 308px;
-    }
 
-    p {
-        font-size: 24px;
-        line-height: 42px;
-        font-weight: 700;
-    }
+        p {
+            font-size: 24px;
+            line-height: 42px;
+            font-weight: 700;
+        }
 
-    h1 {
-        font-size: 80px;
-        line-height: 106px;
-        font-weight: 900;
-    }
+        h1 {
+            font-size: 80px;
+            line-height: 106px;
+            font-weight: 900;
+        }
 
-    h3 {
-        font-size: 24px;
-        line-height: 36px;
-        font-weight: 700;
+        h3 {
+            font-size: 24px;
+            line-height: 36px;
+            font-weight: 700;
+        }
+
     }
 
     &-icon {

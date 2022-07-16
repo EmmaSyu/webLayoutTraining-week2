@@ -234,28 +234,31 @@ section {
   background-size: cover;
   background-position: center;
   color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
 }
 
-.header-content {
-  width: 304px;
-  margin: 0 auto;
-  padding-top: 308px;
-  padding-bottom: 308px;
-}
-
-.header p {
+.header-content p {
   font-size: 24px;
   line-height: 42px;
   font-weight: 700;
 }
 
-.header h1 {
+.header-content h1 {
   font-size: 80px;
   line-height: 106px;
   font-weight: 900;
 }
 
-.header h3 {
+.header-content h3 {
   font-size: 24px;
   line-height: 36px;
   font-weight: 700;
