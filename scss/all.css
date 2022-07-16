@@ -156,6 +156,7 @@ h2 {
 
 section {
   text-align: center;
+  color: #000;
 }
 
 .container {
@@ -276,10 +277,6 @@ section {
 
 .header-icon a:hover {
   opacity: 0.5;
-}
-
-.about {
-  color: #000;
 }
 
 .about ul {
