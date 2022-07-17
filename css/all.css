@@ -137,6 +137,7 @@ table {
 body {
   font-family: 'Roboto', sans-serif;
   font-style: italic;
+  line-height: 1.5;
 }
 
 img {
@@ -154,9 +155,8 @@ h2 {
   line-height: 84px;
 }
 
-section {
+section, footer {
   text-align: center;
-  color: #000;
 }
 
 .container {
@@ -249,19 +249,18 @@ section {
 
 .header-content p {
   font-size: 24px;
-  line-height: 42px;
+  line-height: 1.75;
   font-weight: 700;
 }
 
 .header-content h1 {
   font-size: 80px;
-  line-height: 106px;
+  line-height: 1.325;
   font-weight: 900;
 }
 
 .header-content h3 {
   font-size: 24px;
-  line-height: 36px;
   font-weight: 700;
 }
 
@@ -281,12 +280,12 @@ section {
 
 .about ul {
   font-size: 24px;
-  line-height: 42px;
+  line-height: 1.75;
   font-weight: 700;
 }
 
 .about-content li:last-child {
-  line-height: 36px;
+  line-height: 1.5;
 }
 
 .about-list {
@@ -314,12 +313,11 @@ section {
 
 .brand h3 {
   font-size: 24px;
-  line-height: 42px;
+  line-height: 1.75;
 }
 
 .brand p {
   font-size: 20px;
-  line-height: 30px;
 }
 
 .brand-img {
@@ -338,7 +336,6 @@ section {
 
 .work p {
   font-size: 20px;
-  line-height: 30px;
 }
 
 .work ul {
@@ -358,12 +355,10 @@ section {
 .footer {
   background-color: #000;
   color: #fff;
-  text-align: center;
 }
 
 .footer li {
   font-size: 24px;
-  line-height: 36px;
 }
 
 .footer li a:hover {
