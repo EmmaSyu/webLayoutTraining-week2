@@ -1,0 +1,46 @@
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500;1,700;1,900&display=swap');
+
+// base styles
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+img {
+    vertical-align: middle;
+    max-width: 100%;
+    transition: all 0.2s ease-in;
+
+    &:hover {
+        transform: scale(1.02);
+        filter: drop-shadow(5px 5px 5px #333);
+    }
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h2 {
+    font-size: 64px;
+    line-height: 84px;
+}
+
+section,
+footer {
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}

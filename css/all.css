@@ -134,7 +134,9 @@ table {
   border-spacing: 0;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -148,6 +150,15 @@ body {
 img {
   vertical-align: middle;
   max-width: 100%;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+img:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-filter: drop-shadow(5px 5px 5px #333);
+          filter: drop-shadow(5px 5px 5px #333);
 }
 
 a {
@@ -160,7 +171,8 @@ h2 {
   line-height: 84px;
 }
 
-section, footer {
+section,
+footer {
   text-align: center;
 }
 
@@ -252,16 +264,18 @@ section, footer {
   height: 100vh;
 }
 
-.header-content p {
+.header-content span {
   font-size: 24px;
   line-height: 1.75;
   font-weight: 700;
+  vertical-align: bottom;
 }
 
 .header-content h1 {
   font-size: 80px;
   line-height: 1.325;
   font-weight: 900;
+  margin-top: -64px;
 }
 
 .header-content h3 {
@@ -281,6 +295,11 @@ section, footer {
 
 .header-icon a:hover {
   opacity: 0.5;
+}
+
+.header-icon img:hover {
+  -webkit-filter: none;
+          filter: none;
 }
 
 .about ul {
